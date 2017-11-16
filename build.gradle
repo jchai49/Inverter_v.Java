@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+repositories {
+   jcenter()
+   maven { url "https://jitpack.io" }
+}
+
+configurations.all { // uncomment the following line to check for dependency updates at every build
+  // resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+dependencies {
+	compile 'com.github.be3short:HybridSystemsEnvironment:-SNAPSHOT'
+    testImplementation 'junit:junit:4.12' 
+}
