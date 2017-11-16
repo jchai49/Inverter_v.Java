@@ -77,7 +77,7 @@ public class InverterTasks extends TaskManager
 		// Flag indicating if environment configuration should be saved in an output file when not specified by the user
 		env.getSettings().getOutputSettings().saveConfigurationToFile = false;
 		// Flag indicating if environment should be saved in an output file when not specified by the user
-		env.getSettings().getOutputSettings().saveEnvironmentToFile = true;
+		env.getSettings().getOutputSettings().saveEnvironmentToFile = false;
 		// Flag indicating if log should be saved to file
 		env.getSettings().getOutputSettings().saveLogToFile = true;
 
@@ -182,8 +182,9 @@ public class InverterTasks extends TaskManager
 		Environment env = getConfiguredEnvironment();
 		InverterSystem s = getTestInverterSystem();
 		env.add(s);
-		env.add(multiChart()); // adding the chart to the environment automatically generates output files
+		// env.add(multiChart()); // adding the chart to the environment automatically generates output files
 		env.start(5.0, 1000000);
 		multiChart().createChart(env);
+		env.getData().exportToCSVFile();
 	}
 }
