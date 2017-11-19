@@ -13,3 +13,26 @@ dependencies {
 	compile 'com.github.be3short:HybridSystemsEnvironment:-SNAPSHOT'
     testImplementation 'junit:junit:4.12' 
 }
+
+jar {
+
+    archiveName = "Inverter.jar"
+
+    from {
+
+        configurations.runtime.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+
+    manifest {
+        attributes 'Main-Class': 'edu.ucsc.cross.hse.model.hybridinverter.InverterTasks'
+
+    }
+
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA, log4j.properties'
+}
