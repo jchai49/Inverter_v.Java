@@ -1,4 +1,4 @@
-package edu.ucsc.cross.hse.model.hybridinverter;
+package Hinverter;
 
 public class InverterParameters
 {
@@ -45,10 +45,9 @@ public class InverterParameters
 			this.FIc = 1.0;
 		}
 
-		Double eps0 = a * Math.sqrt(co - ci) * Math.sqrt(Math.pow(b, 2) * (ci - co) + 4 * V * (V - b * Math.sqrt(ci)))
-		/ (2 * V);
-		Double r = 1.1;
-		eps = r * eps0;
+		/////// Double eps0 = a * Math.sqrt(co - ci) * Math.sqrt(Math.pow(b, 2) * (ci - co) + 4 * V * (V - b * Math.sqrt(ci)))/ (2 * V);
+		////// Double r = 1.1;
+		this.eps = a * Math.sqrt(co - ci);
 	}
 
 	public static InverterParameters idealParameters(Double e)

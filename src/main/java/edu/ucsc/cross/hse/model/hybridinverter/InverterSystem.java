@@ -1,4 +1,4 @@
-package edu.ucsc.cross.hse.model.hybridinverter;
+package Hinverter;
 
 import edu.ucsc.cross.hse.core.object.HybridSystem;
 
@@ -56,9 +56,9 @@ public class InverterSystem extends HybridSystem<InverterState>
 	{
 		x_dot.p = 0.0;
 		x_dot.q = 0.0;
-		x_dot.iL = (-p.R * x.iL - x.vC + x.vIn * x.q) / p.L;
+		x_dot.iL = (-p.R * x.iL - x.vC + p.V * x.q) / p.L;
 		x_dot.vC = (x.iL - x.vC / p.Rl) / p.Cap;
-		x_dot.vIn = 0.0;
+		x_dot.tau = 1.0;
 
 	}
 
@@ -101,7 +101,7 @@ public class InverterSystem extends HybridSystem<InverterState>
 		Double pplus = x.p;
 		Double qplus = x.q;
 		Double iLPlus = x.iL;
-		Double Vinplus = x.vIn;
+		Double tauplus = x.tau;
 		Double vCplus = x.vC;
 
 		// useful expressions
@@ -183,7 +183,7 @@ public class InverterSystem extends HybridSystem<InverterState>
 		x_plus.q = qplus;
 		x_plus.p = pplus;
 		x_plus.iL = iLPlus;
-		x_plus.vIn = Vinplus;
+		x_plus.tau = tauplus;
 		x_plus.vC = vCplus;
 
 	}
