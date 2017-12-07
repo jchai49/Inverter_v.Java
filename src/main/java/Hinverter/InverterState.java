@@ -18,5 +18,6 @@ public class InverterState extends ObjectSet
 		this.iL = iL;
 		this.vC = vC;
 		this.tau = tau;
+
 	}
 }

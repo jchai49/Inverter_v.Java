@@ -1,13 +1,11 @@
 package Hinverter;
 
-import com.be3short.io.format.ImageFormat;
-
-// import edu.cross.ucsc.hse.core.chart.ChartConfiguration;
+import edu.cross.ucsc.hse.core.chart.ChartConfiguration;
 import edu.ucsc.cross.hse.core.environment.Environment;
 import edu.ucsc.cross.hse.core.setting.ComputationSettings.IntegratorType;
 import edu.ucsc.cross.hse.core.task.TaskManager;
 
-public class InverterRun extends TaskManager
+public class InverterTasks extends TaskManager
 {
 
 	/*
@@ -38,9 +36,9 @@ public class InverterRun extends TaskManager
 		///// Execution Parameters
 
 		// Maximum time allowed before execution terminates
-		env.getSettings().getExecutionParameters().maximumTime = 2.0;
+		env.getSettings().getExecutionParameters().maximumTime = 5.0;
 		// Maximum number of jumps allowed before execution terminates
-		env.getSettings().getExecutionParameters().maximumJumps = 1000000;
+		env.getSettings().getExecutionParameters().maximumJumps = 200;
 
 		///// Log settings
 
@@ -64,11 +62,11 @@ public class InverterRun extends TaskManager
 		// Flag indicating if file names should include the date at the end (for uniqueness)
 		env.getSettings().getOutputSettings().appendFilesWithNumericDate = false;
 		// Default image file format to be used when exporting charts with no format specified
-		env.getSettings().getOutputSettings().chartFileFormat = ImageFormat.EPS;
+		// env.getSettings().getOutputSettings().chartFileFormat = ImageFormat.EPS;
 		// Name of the environment configuration file if it were to be saved
 		env.getSettings().getOutputSettings().configurationFileName = "environmentConfig";
 		// Time between data point storage
-		env.getSettings().getOutputSettings().dataPointInterval = 1.0e-6;
+		env.getSettings().getOutputSettings().dataPointInterval = .00005;
 		// Name of the environment file if it were to be saved
 		env.getSettings().getOutputSettings().environmentFileName = "environment";
 		// Location where results will be automatically stored if auto storage is enabled
@@ -87,9 +85,9 @@ public class InverterRun extends TaskManager
 		// Factor that event handling convergence value will be reduced when event handling error occurs
 		env.getSettings().getComputationSettings().convergenceErrorCorrectionFactor = 1.0;
 		// Convergence threshold of an event
-		env.getSettings().getComputationSettings().eventHandlerConvergenceThreshold = 1.0e-8;
+		env.getSettings().getComputationSettings().eventHandlerConvergenceThreshold = .000000000000001;
 		// Event handler maximum interval to check for an event
-		env.getSettings().getComputationSettings().eventHandlerMaximumCheckInterval = 1.0e-8;
+		env.getSettings().getComputationSettings().eventHandlerMaximumCheckInterval = .00000001;
 		// Integrator type to be used
 		env.getSettings().getComputationSettings().integratorType = IntegratorType.DORMAND_PRINCE_853;
 		// Factor that event handling interval value will be reduced when event handling error occurs
@@ -99,9 +97,9 @@ public class InverterRun extends TaskManager
 		// Maximum number of event handler iterations
 		env.getSettings().getComputationSettings().maxEventHandlerIterations = 10;
 		// Maximum step size for variable step integrator
-		env.getSettings().getComputationSettings().odeMaximumStepSize = 1.0e-8;
+		env.getSettings().getComputationSettings().odeMaximumStepSize = .5E-4;
 		// Ode step size if using a fixed step integrator, or minimum ode step size of a variable step integrator
-		env.getSettings().getComputationSettings().odeMinimumStepSize = 1.0e-8;
+		env.getSettings().getComputationSettings().odeMinimumStepSize = .5E-8;
 		// Relative tolerance of the ode solver
 		env.getSettings().getComputationSettings().odeRelativeTolerance = 1.0e-12;
 		// Absolute tolerance of the ode solver
@@ -114,7 +112,6 @@ public class InverterRun extends TaskManager
 		return env;
 	}
 
-	/*
 	public static ChartConfiguration multiChart()
 	{
 		// Create a new plot configuration with specified width (600.0) and height (600.0)
@@ -134,7 +131,8 @@ public class InverterRun extends TaskManager
 		plot.chartProperties(2).setAxisSelections(null, "q");
 		plot.chartProperties(3).setAxisSelections(null, "iL");
 		plot.chartProperties(4).setAxisSelections(null, "vC");
-		plot.chartProperties(5).setAxisSelections(null, "tau");
+		plot.chartProperties(5).setAxisSelections(null, "vIn");
+
 		// Select axis labels
 		// * null is used to hide an axis label
 		plot.chartProperties(0).setAxisLabels(null, null);
@@ -160,22 +158,21 @@ public class InverterRun extends TaskManager
 		plot.chartProperties(2).setTitle("q");
 		plot.chartProperties(3).setTitle("iL");
 		plot.chartProperties(4).setTitle("vC");
-		plot.chartProperties(5).setTitle("tau");
+		plot.chartProperties(5).setTitle("vIn");
 
 		return plot;
 	}
-*/
-	
+
 	public static InverterSystem getTestInverterSystem()
 	{
-		InverterParameters params = InverterParameters.idealParameters(.05);
+		InverterParameters params = InverterParameters.idealParameters(.1);
 		Double p0 = 1.0;
 		Double q0 = 1.0;
 		// Double c = params.ci + Math.random() * (params.co - params.ci);
-		Double tau0 = 0.0;
+		Double vIn0 = params.V;
 		Double iL0 = params.a * 1.0;
 		Double vC0 = 0.0;// params.b * Math.sqrt(c - Math.pow((iL0 / params.a), 2));
-		InverterState state = new InverterState(p0, q0, iL0, vC0, tau0);
+		InverterState state = new InverterState(p0, q0, iL0, vC0, vIn0);
 		InverterSystem invSys = new InverterSystem(state, params);
 		return invSys;
 	}
@@ -185,9 +182,9 @@ public class InverterRun extends TaskManager
 		Environment env = getConfiguredEnvironment();
 		InverterSystem s = getTestInverterSystem();
 		env.add(s);
-	    // env.add(multiChart()); // adding the chart to the environment automatically generates output files
-		env.start(0.2, 1000000);
-		// multiChart().createChart(env);
+		// env.add(multiChart()); // adding the chart to the environment automatically generates output files
+		env.start(5.0, 1000000);
+		multiChart().createChart(env);
 		env.getData().exportToCSVFile();
 	}
 }

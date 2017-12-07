@@ -21,7 +21,7 @@ repositories {
 }
 
 configurations.all { // uncomment the following line to check for dependency updates at every build
-  // resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+ resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
 dependencies {
