@@ -25,8 +25,9 @@ configurations.all { // uncomment the following line to check for dependency upd
 }
 
 dependencies {
-	compile 'com.github.be3short:HybridSystemsEnvironment:-SNAPSHOT'
+	// compile 'com.github.HybridSystemsEnvironment:HybridSystemsEnvironment:-SNAPSHOT'
     testImplementation 'junit:junit:4.12' 
+      api 'org.apache.commons:commons-math3:3.6.1'
 }
 
 jar {

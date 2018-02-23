@@ -1,0 +1,543 @@
+[23:43:46.035][70/441][info] Environment Started
+[23:43:46.198][100/441][debug] Starting integrator : t0 = 0.0 , tf = 0.02
+[23:43:46.243][105/441][info] status: 0.00%  complete : sim time = 0.00 : jumps = 0
+[23:43:46.360][120/441][debug] Jump detected : t = 3.429500000008484E-5 j = 0
+[23:43:46.361][120/441][debug] Jump detected : t = 3.43066666669502E-5 j = 0
+[23:43:46.362][120/441][debug] Jump occurred : t = 3.43066666669502E-5 j = 1
+[23:43:46.451][132/441][debug] Jump detected : t = 1.0187500000068073E-4 j = 1
+[23:43:46.452][132/441][debug] Jump occurred : t = 1.0187500000068073E-4 j = 2
+[23:43:46.480][132/441][debug] Jump detected : t = 1.715233333344112E-4 j = 2
+[23:43:46.481][132/441][debug] Jump occurred : t = 1.715233333344112E-4 j = 3
+[23:43:46.497][132/441][warn] 1.715333333344112E-4 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.497][132/441][debug] Starting integrator : t0 = 1.715333333344112E-4 , tf = 0.02
+[23:43:46.539][140/441][debug] Jump detected : t = 2.391716666681417E-4 j = 3
+[23:43:46.541][140/441][debug] Jump occurred : t = 2.391716666681417E-4 j = 4
+[23:43:46.575][140/441][debug] Jump detected : t = 3.0919641914347484E-4 j = 4
+[23:43:46.577][140/441][debug] Jump detected : t = 3.09207970298787E-4 j = 4
+[23:43:46.578][140/441][debug] Jump occurred : t = 3.09207970298787E-4 j = 5
+[23:43:46.598][147/441][debug] Jump detected : t = 3.771238118830311E-4 j = 5
+[23:43:46.598][147/441][debug] Jump detected : t = 3.771353630383433E-4 j = 5
+[23:43:46.599][147/441][debug] Jump occurred : t = 3.771353630383433E-4 j = 6
+[23:43:46.637][152/441][debug] Jump detected : t = 4.4774757425986066E-4 j = 6
+[23:43:46.638][152/441][debug] Jump occurred : t = 4.4774757425986066E-4 j = 7
+[23:43:46.638][152/441][warn] 4.477574752499597E-4 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.638][152/441][debug] Starting integrator : t0 = 4.477574752499597E-4 , tf = 0.02
+[23:43:46.656][155/441][debug] Jump detected : t = 5.161320627091004E-4 j = 7
+[23:43:46.656][155/441][debug] Jump occurred : t = 5.161320627091004E-4 j = 8
+[23:43:46.657][155/441][warn] 5.161419636991993E-4 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.657][155/441][debug] Starting integrator : t0 = 5.161419636991993E-4 , tf = 0.02
+[23:43:46.670][160/441][debug] Jump detected : t = 5.875264521484392E-4 j = 8
+[23:43:46.671][160/441][debug] Jump occurred : t = 5.875264521484392E-4 j = 9
+[23:43:46.699][162/441][debug] Jump detected : t = 6.565941089145108E-4 j = 9
+[23:43:46.700][162/441][debug] Jump occurred : t = 6.565941089145108E-4 j = 10
+[23:43:46.700][162/441][warn] 6.566040099046098E-4 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.701][162/441][debug] Starting integrator : t0 = 6.566040099046098E-4 , tf = 0.02
+[23:43:46.710][162/441][debug] Jump detected : t = 7.289983993439486E-4 j = 10
+[23:43:46.710][162/441][debug] Jump occurred : t = 7.289983993439486E-4 j = 11
+[23:43:46.710][162/441][warn] 7.290083003340475E-4 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.711][162/441][debug] Starting integrator : t0 = 7.290083003340475E-4 , tf = 0.02
+[23:43:46.717][165/441][debug] Jump detected : t = 7.989769471991289E-4 j = 11
+[23:43:46.718][165/441][debug] Jump occurred : t = 7.989769471991289E-4 j = 12
+[23:43:46.736][170/441][debug] Jump detected : t = 8.726452640308979E-4 j = 12
+[23:43:46.737][170/441][debug] Jump detected : t = 8.726568151862102E-4 j = 12
+[23:43:46.738][170/441][debug] Jump occurred : t = 8.726568151862102E-4 j = 13
+[23:43:46.751][172/441][debug] Jump detected : t = 9.438036798730739E-4 j = 13
+[23:43:46.752][172/441][debug] Jump occurred : t = 9.438036798730739E-4 j = 14
+[23:43:46.752][172/441][warn] 9.438135808631728E-4 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.753][172/441][debug] Starting integrator : t0 = 9.438135808631728E-4 , tf = 0.02
+[23:43:46.760][172/441][debug] Jump detected : t = 0.0010190185808632549 j = 14
+[23:43:46.761][172/441][debug] Jump detected : t = 0.0010190302475301203 j = 14
+[23:43:46.761][172/441][debug] Jump occurred : t = 0.0010190302475301203 j = 15
+[23:43:46.770][172/441][debug] Jump detected : t = 0.0010916485808638446 j = 15
+[23:43:46.771][172/441][debug] Jump occurred : t = 0.0010916485808638446 j = 16
+[23:43:46.779][177/441][debug] Jump detected : t = 0.001168763580863923 j = 16
+[23:43:46.779][177/441][debug] Jump detected : t = 0.0011687752475307883 j = 16
+[23:43:46.779][177/441][debug] Jump occurred : t = 0.0011687752475307883 j = 17
+[23:43:46.870][184/441][debug] Jump detected : t = 0.0012432135808645127 j = 17
+[23:43:46.870][184/441][debug] Jump occurred : t = 0.0012432135808645127 j = 18
+[23:43:46.875][187/441][debug] Jump detected : t = 0.0013226319141982365 j = 18
+[23:43:46.876][187/441][debug] Jump occurred : t = 0.0013226319141982365 j = 19
+[23:43:46.876][187/441][warn] 0.0013226419141982365 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.877][187/441][debug] Starting integrator : t0 = 0.0013226419141982365 , tf = 0.02
+[23:43:46.883][192/441][debug] Jump detected : t = 0.0013993102475319606 j = 19
+[23:43:46.883][192/441][debug] Jump occurred : t = 0.0013993102475319606 j = 20
+[23:43:46.891][192/441][debug] Jump detected : t = 0.0014815285808656843 j = 20
+[23:43:46.891][192/441][debug] Jump occurred : t = 0.0014815285808656843 j = 21
+[23:43:46.898][192/441][debug] Jump detected : t = 0.001560986914199408 j = 21
+[23:43:46.899][192/441][debug] Jump occurred : t = 0.001560986914199408 j = 22
+[23:43:46.899][192/441][warn] 0.0015609969141994078 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.899][192/441][debug] Starting integrator : t0 = 0.0015609969141994078 , tf = 0.02
+[23:43:46.908][197/441][debug] Jump detected : t = 0.0016466352475331312 j = 22
+[23:43:46.908][197/441][debug] Jump occurred : t = 0.0016466352475331312 j = 23
+[23:43:46.927][199/441][debug] Jump detected : t = 0.0017295635808668545 j = 23
+[23:43:46.927][199/441][debug] Jump occurred : t = 0.0017295635808668545 j = 24
+[23:43:46.928][199/441][warn] 0.0017295735808668545 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.928][199/441][debug] Starting integrator : t0 = 0.0017295735808668545 , tf = 0.02
+[23:43:46.936][199/441][debug] Jump detected : t = 0.0018194685808669317 j = 24
+[23:43:46.937][199/441][debug] Jump detected : t = 0.001819480247533797 j = 24
+[23:43:46.937][199/441][debug] Jump occurred : t = 0.001819480247533797 j = 25
+[23:43:46.945][204/441][debug] Jump detected : t = 0.0019068085808675202 j = 25
+[23:43:46.946][204/441][debug] Jump occurred : t = 0.0019068085808675202 j = 26
+[23:43:46.964][207/441][info] status: 10.00%  complete : sim time = 0.00 : jumps = 26
+[23:43:46.965][207/441][debug] Jump detected : t = 0.002002133663376166 j = 26
+[23:43:46.966][207/441][debug] Jump occurred : t = 0.002002133663376166 j = 27
+[23:43:46.967][207/441][warn] 0.002002143564366265 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:46.967][207/441][debug] Starting integrator : t0 = 0.002002143564366265 , tf = 0.02
+[23:43:46.986][209/441][debug] Jump detected : t = 0.0020951518151917526 j = 27
+[23:43:46.987][209/441][debug] Jump occurred : t = 0.0020951518151917526 j = 28
+[23:43:46.997][214/441][debug] Jump detected : t = 0.0021975363036410038 j = 28
+[23:43:46.997][214/441][debug] Jump occurred : t = 0.0021975363036410038 j = 29
+[23:43:47.007][214/441][debug] Jump detected : t = 0.0022981947194826856 j = 29
+[23:43:47.008][214/441][debug] Jump detected : t = 0.0022982062706379987 j = 29
+[23:43:47.008][214/441][debug] Jump occurred : t = 0.0022982062706379987 j = 30
+[23:43:47.025][217/441][debug] Jump detected : t = 0.0024101815181628503 j = 30
+[23:43:47.025][217/441][debug] Jump detected : t = 0.002410193069318163 j = 30
+[23:43:47.026][217/441][debug] Jump occurred : t = 0.002410193069318163 j = 31
+[23:43:47.041][224/441][debug] Jump detected : t = 0.002521686468658504 j = 31
+[23:43:47.042][224/441][debug] Jump occurred : t = 0.002521686468658504 j = 32
+[23:43:47.074][227/441][debug] Jump detected : t = 0.002647595709583005 j = 32
+[23:43:47.074][227/441][debug] Jump occurred : t = 0.002647595709583005 j = 33
+[23:43:47.074][227/441][warn] 0.002647605610573104 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.075][227/441][debug] Starting integrator : t0 = 0.002647605610573104 , tf = 0.02
+[23:43:47.094][234/441][debug] Jump detected : t = 0.002775818481860334 j = 33
+[23:43:47.095][234/441][debug] Jump detected : t = 0.0027758300330156466 j = 33
+[23:43:47.095][234/441][debug] Jump occurred : t = 0.0027758300330156466 j = 34
+[23:43:47.107][234/441][debug] Jump detected : t = 0.0029242739274054977 j = 34
+[23:43:47.108][234/441][debug] Jump occurred : t = 0.0029242739274054977 j = 35
+[23:43:47.121][239/441][debug] Jump detected : t = 0.003083282178230994 j = 35
+[23:43:47.121][239/441][debug] Jump occurred : t = 0.003083282178230994 j = 36
+[23:43:47.151][246/441][debug] Jump detected : t = 0.0032771221122248114 j = 36
+[23:43:47.151][246/441][debug] Jump occurred : t = 0.0032771221122248114 j = 37
+[23:43:47.174][254/441][debug] Jump detected : t = 0.003539229372951311 j = 37
+[23:43:47.175][254/441][debug] Jump occurred : t = 0.003539229372951311 j = 38
+[23:43:47.242][266/441][debug] Jump detected : t = 0.003941669967010854 j = 38
+[23:43:47.243][266/441][debug] Jump detected : t = 0.003941681518166165 j = 38
+[23:43:47.243][266/441][debug] Jump occurred : t = 0.003941681518166165 j = 39
+[23:43:47.251][266/441][info] status: 20.01%  complete : sim time = 0.00 : jumps = 39
+[23:43:47.394][36/448][debug] Jump detected : t = 0.005172382838298736 j = 39
+[23:43:47.394][36/448][debug] Jump occurred : t = 0.005172382838298736 j = 40
+[23:43:47.394][36/448][warn] 0.005172392739288835 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.395][36/448][debug] Starting integrator : t0 = 0.005172392739288835 , tf = 0.02
+[23:43:47.434][45/448][debug] Jump detected : t = 0.005541262376252975 j = 40
+[23:43:47.434][45/448][debug] Jump occurred : t = 0.005541262376252975 j = 41
+[23:43:47.435][45/448][warn] 0.005541272277243074 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.435][45/448][debug] Starting integrator : t0 = 0.005541272277243074 , tf = 0.02
+[23:43:47.465][49/448][debug] Jump detected : t = 0.0057921320132170995 j = 41
+[23:43:47.466][49/448][debug] Jump occurred : t = 0.0057921320132170995 j = 42
+[23:43:47.487][58/448][debug] Jump detected : t = 0.005980912541270325 j = 42
+[23:43:47.487][58/448][debug] Jump occurred : t = 0.005980912541270325 j = 43
+[23:43:47.489][58/448][info] status: 30.01%  complete : sim time = 0.01 : jumps = 43
+[23:43:47.510][65/448][debug] Jump detected : t = 0.006139613861402753 j = 43
+[23:43:47.510][65/448][debug] Jump occurred : t = 0.006139613861402753 j = 44
+[23:43:47.528][71/448][debug] Jump detected : t = 0.0062848201320302305 j = 44
+[23:43:47.528][71/448][debug] Jump occurred : t = 0.0062848201320302305 j = 45
+[23:43:47.538][71/448][debug] Jump detected : t = 0.00641383498351548 j = 45
+[23:43:47.538][71/448][debug] Jump detected : t = 0.006413846534670791 j = 45
+[23:43:47.538][71/448][debug] Jump occurred : t = 0.006413846534670791 j = 46
+[23:43:47.547][75/448][debug] Jump detected : t = 0.006537092409258661 j = 46
+[23:43:47.547][75/448][debug] Jump occurred : t = 0.006537092409258661 j = 47
+[23:43:47.548][75/448][warn] 0.00653710231024876 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.548][75/448][debug] Starting integrator : t0 = 0.00653710231024876 , tf = 0.02
+[23:43:47.555][75/448][debug] Jump detected : t = 0.006649760726090443 j = 47
+[23:43:47.556][75/448][debug] Jump detected : t = 0.006649772277245754 j = 47
+[23:43:47.556][75/448][debug] Jump occurred : t = 0.006649772277245754 j = 48
+[23:43:47.580][84/448][debug] Jump detected : t = 0.006759354785496989 j = 48
+[23:43:47.581][84/448][debug] Jump occurred : t = 0.006759354785496989 j = 49
+[23:43:47.588][84/448][debug] Jump detected : t = 0.006861412541272975 j = 49
+[23:43:47.588][84/448][debug] Jump occurred : t = 0.006861412541272975 j = 50
+[23:43:47.629][91/448][debug] Jump detected : t = 0.006961539603979654 j = 50
+[23:43:47.630][91/448][debug] Jump occurred : t = 0.006961539603979654 j = 51
+[23:43:47.638][91/448][debug] Jump detected : t = 0.007056072607280391 j = 51
+[23:43:47.638][91/448][debug] Jump occurred : t = 0.007056072607280391 j = 52
+[23:43:47.645][95/448][debug] Jump detected : t = 0.007149226072627022 j = 52
+[23:43:47.646][95/448][debug] Jump detected : t = 0.007149237623782332 j = 52
+[23:43:47.647][95/448][debug] Jump occurred : t = 0.007149237623782332 j = 53
+[23:43:47.654][97/448][debug] Jump detected : t = 0.007238146864706831 j = 53
+[23:43:47.655][97/448][debug] Jump occurred : t = 0.007238146864706831 j = 54
+[23:43:47.656][97/448][warn] 0.00723815676569693 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.657][97/448][debug] Starting integrator : t0 = 0.00723815676569693 , tf = 0.02
+[23:43:47.663][97/448][debug] Jump detected : t = 0.00732595709573034 j = 54
+[23:43:47.664][97/448][debug] Jump occurred : t = 0.00732595709573034 j = 55
+[23:43:47.706][106/448][debug] Jump detected : t = 0.007410529702991471 j = 55
+[23:43:47.707][106/448][debug] Jump occurred : t = 0.007410529702991471 j = 56
+[23:43:47.715][106/448][debug] Jump detected : t = 0.007494122112232802 j = 56
+[23:43:47.715][106/448][debug] Jump occurred : t = 0.007494122112232802 j = 57
+[23:43:47.720][113/448][debug] Jump detected : t = 0.007575255775599234 j = 57
+[23:43:47.721][113/448][debug] Jump detected : t = 0.007575267326754544 j = 57
+[23:43:47.721][113/448][debug] Jump occurred : t = 0.007575267326754544 j = 58
+[23:43:47.726][113/448][debug] Jump detected : t = 0.00765545049507147 j = 58
+[23:43:47.726][113/448][debug] Jump detected : t = 0.007655462046226781 j = 58
+[23:43:47.726][113/448][debug] Jump occurred : t = 0.007655462046226781 j = 59
+[23:43:47.761][115/448][debug] Jump detected : t = 0.007733856435666131 j = 59
+[23:43:47.761][115/448][debug] Jump occurred : t = 0.007733856435666131 j = 60
+[23:43:47.770][119/448][debug] Jump detected : t = 0.007811267326755334 j = 60
+[23:43:47.771][119/448][debug] Jump detected : t = 0.007811278877910645 j = 60
+[23:43:47.774][119/448][debug] Jump occurred : t = 0.007811278877910645 j = 61
+[23:43:47.789][119/448][debug] Jump detected : t = 0.007887447211244321 j = 61
+[23:43:47.790][119/448][debug] Jump occurred : t = 0.007887447211244321 j = 62
+[23:43:47.790][119/448][warn] 0.007887457211244321 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.790][119/448][debug] Starting integrator : t0 = 0.007887457211244321 , tf = 0.02
+[23:43:47.802][119/448][debug] Jump detected : t = 0.007962585544577997 j = 62
+[23:43:47.802][119/448][debug] Jump occurred : t = 0.007962585544577997 j = 63
+[23:43:47.803][119/448][warn] 0.007962595544577997 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.803][119/448][debug] Starting integrator : t0 = 0.007962595544577997 , tf = 0.02
+[23:43:47.806][119/448][info] status: 40.01%  complete : sim time = 0.01 : jumps = 63
+[23:43:47.809][123/448][debug] Jump detected : t = 0.008036953877911672 j = 63
+[23:43:47.810][123/448][debug] Jump occurred : t = 0.008036953877911672 j = 64
+[23:43:47.810][123/448][warn] 0.008036963877911672 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:47.811][123/448][debug] Starting integrator : t0 = 0.008036963877911672 , tf = 0.02
+[23:43:47.827][126/448][debug] Jump detected : t = 0.00811022221124535 j = 64
+[23:43:47.827][126/448][debug] Jump occurred : t = 0.00811022221124535 j = 65
+[23:43:47.832][126/448][debug] Jump detected : t = 0.00818313721124538 j = 65
+[23:43:47.833][126/448][debug] Jump detected : t = 0.008183148877912244 j = 65
+[23:43:47.833][126/448][debug] Jump occurred : t = 0.008183148877912244 j = 66
+[23:43:47.839][130/448][debug] Jump detected : t = 0.00825488721124592 j = 66
+[23:43:47.839][130/448][debug] Jump occurred : t = 0.00825488721124592 j = 67
+[23:43:47.844][130/448][debug] Jump detected : t = 0.008326652211245953 j = 67
+[23:43:47.845][130/448][debug] Jump detected : t = 0.008326663877912817 j = 67
+[23:43:47.845][130/448][debug] Jump occurred : t = 0.008326663877912817 j = 68
+[23:43:47.873][134/448][debug] Jump detected : t = 0.008397152211246496 j = 68
+[23:43:47.873][134/448][debug] Jump occurred : t = 0.008397152211246496 j = 69
+[23:43:47.878][139/448][debug] Jump detected : t = 0.008468030544580176 j = 69
+[23:43:47.878][139/448][debug] Jump occurred : t = 0.008468030544580176 j = 70
+[23:43:47.885][139/448][debug] Jump detected : t = 0.008537518877913855 j = 70
+[23:43:47.885][141/448][debug] Jump occurred : t = 0.008537518877913855 j = 71
+[23:43:47.890][141/448][debug] Jump detected : t = 0.00860772387791389 j = 71
+[23:43:47.890][141/448][debug] Jump detected : t = 0.008607735544580754 j = 71
+[23:43:47.890][141/448][debug] Jump occurred : t = 0.008607735544580754 j = 72
+[23:43:47.906][145/448][debug] Jump detected : t = 0.008676453877914434 j = 72
+[23:43:47.906][145/448][debug] Jump occurred : t = 0.008676453877914434 j = 73
+[23:43:47.911][145/448][debug] Jump detected : t = 0.008746212211248114 j = 73
+[23:43:47.911][145/448][debug] Jump occurred : t = 0.008746212211248114 j = 74
+[23:43:47.922][147/448][debug] Jump detected : t = 0.008814360544581795 j = 74
+[23:43:47.922][147/448][debug] Jump occurred : t = 0.008814360544581795 j = 75
+[23:43:47.952][150/448][debug] Jump detected : t = 0.008883858877915476 j = 75
+[23:43:47.974][150/448][debug] Jump occurred : t = 0.008883858877915476 j = 76
+[23:43:47.979][154/448][debug] Jump detected : t = 0.008951637211249157 j = 76
+[23:43:47.980][154/448][debug] Jump occurred : t = 0.008951637211249157 j = 77
+[23:43:47.984][154/448][debug] Jump detected : t = 0.009021052211249192 j = 77
+[23:43:47.984][154/448][debug] Jump detected : t = 0.009021063877916055 j = 77
+[23:43:47.984][154/448][debug] Jump occurred : t = 0.009021063877916055 j = 78
+[23:43:48.007][156/448][debug] Jump detected : t = 0.009088652211249737 j = 78
+[23:43:48.008][156/448][debug] Jump occurred : t = 0.009088652211249737 j = 79
+[23:43:48.008][156/448][warn] 0.009088662211249737 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.008][156/448][debug] Starting integrator : t0 = 0.009088662211249737 , tf = 0.02
+[23:43:48.015][161/448][debug] Jump detected : t = 0.009158180544583417 j = 79
+[23:43:48.016][161/448][debug] Jump occurred : t = 0.009158180544583417 j = 80
+[23:43:48.022][161/448][debug] Jump detected : t = 0.009225755544583452 j = 80
+[23:43:48.022][161/448][debug] Jump detected : t = 0.009225767211250315 j = 80
+[23:43:48.023][161/448][debug] Jump occurred : t = 0.009225767211250315 j = 81
+[23:43:48.028][161/448][debug] Jump detected : t = 0.009295595544583994 j = 81
+[23:43:48.032][161/448][debug] Jump occurred : t = 0.009295595544583994 j = 82
+[23:43:48.037][165/448][debug] Jump detected : t = 0.009363363877917674 j = 82
+[23:43:48.038][165/448][debug] Jump occurred : t = 0.009363363877917674 j = 83
+[23:43:48.046][165/448][debug] Jump detected : t = 0.009433672211251352 j = 83
+[23:43:48.046][165/448][debug] Jump occurred : t = 0.009433672211251352 j = 84
+[23:43:48.047][165/448][warn] 0.009433682211251352 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.047][165/448][debug] Starting integrator : t0 = 0.009433682211251352 , tf = 0.02
+[23:43:48.055][165/448][debug] Jump detected : t = 0.009501810544585031 j = 84
+[23:43:48.055][165/448][debug] Jump occurred : t = 0.009501810544585031 j = 85
+[23:43:48.059][165/448][debug] Jump detected : t = 0.00957280887791871 j = 85
+[23:43:48.060][165/448][debug] Jump occurred : t = 0.00957280887791871 j = 86
+[23:43:48.067][169/448][debug] Jump detected : t = 0.00964152721125239 j = 86
+[23:43:48.068][169/448][debug] Jump occurred : t = 0.00964152721125239 j = 87
+[23:43:48.069][169/448][warn] 0.00964153721125239 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.070][169/448][debug] Starting integrator : t0 = 0.00964153721125239 , tf = 0.02
+[23:43:48.079][169/448][debug] Jump detected : t = 0.009713412211252421 j = 87
+[23:43:48.080][169/448][debug] Jump detected : t = 0.009713423877919285 j = 87
+[23:43:48.080][169/448][debug] Jump occurred : t = 0.009713423877919285 j = 88
+[23:43:48.054][165/448][info] monitor : 47.37% complete : sim time = 0.01 : jumps = 84
+[23:43:48.087][169/448][debug] Jump detected : t = 0.009782942211252964 j = 88
+[23:43:48.088][169/448][debug] Jump occurred : t = 0.009782942211252964 j = 89
+[23:43:48.093][173/448][debug] Jump detected : t = 0.009855980544586642 j = 89
+[23:43:48.094][173/448][debug] Jump occurred : t = 0.009855980544586642 j = 90
+[23:43:48.099][173/448][debug] Jump detected : t = 0.00992653887792032 j = 90
+[23:43:48.099][173/448][debug] Jump occurred : t = 0.00992653887792032 j = 91
+[23:43:48.104][173/448][debug] Jump detected : t = 0.01000098387792035 j = 91
+[23:43:48.105][173/448][debug] Jump detected : t = 0.010000995544587214 j = 91
+[23:43:48.105][173/448][debug] Jump occurred : t = 0.010000995544587214 j = 92
+[23:43:48.106][173/448][info] status: 50.01%  complete : sim time = 0.01 : jumps = 92
+[23:43:48.111][177/448][debug] Jump detected : t = 0.010072873877920894 j = 92
+[23:43:48.112][177/448][debug] Jump occurred : t = 0.010072873877920894 j = 93
+[23:43:48.117][177/448][debug] Jump detected : t = 0.010149038877920923 j = 93
+[23:43:48.117][177/448][debug] Jump detected : t = 0.010149050544587788 j = 93
+[23:43:48.117][177/448][debug] Jump occurred : t = 0.010149050544587788 j = 94
+[23:43:48.126][177/448][debug] Jump detected : t = 0.01022256554458782 j = 94
+[23:43:48.127][177/448][debug] Jump detected : t = 0.010222577211254684 j = 94
+[23:43:48.128][177/448][debug] Jump occurred : t = 0.010222577211254684 j = 95
+[23:43:48.136][181/448][debug] Jump detected : t = 0.010300842211254711 j = 95
+[23:43:48.136][181/448][debug] Jump detected : t = 0.010300853877921574 j = 95
+[23:43:48.137][181/448][debug] Jump occurred : t = 0.010300853877921574 j = 96
+[23:43:48.266][191/448][debug] Jump detected : t = 0.010376398877921604 j = 96
+[23:43:48.266][191/448][debug] Jump detected : t = 0.010376410544588467 j = 96
+[23:43:48.266][191/448][debug] Jump occurred : t = 0.010376410544588467 j = 97
+[23:43:48.272][191/448][debug] Jump detected : t = 0.010457228877922138 j = 97
+[23:43:48.273][191/448][debug] Jump occurred : t = 0.010457228877922138 j = 98
+[23:43:48.281][195/448][debug] Jump detected : t = 0.010535283877922167 j = 98
+[23:43:48.281][195/448][debug] Jump detected : t = 0.01053529554458903 j = 98
+[23:43:48.281][195/448][debug] Jump occurred : t = 0.01053529554458903 j = 99
+[23:43:48.286][195/448][debug] Jump detected : t = 0.010619223877922699 j = 99
+[23:43:48.286][195/448][debug] Jump occurred : t = 0.010619223877922699 j = 100
+[23:43:48.287][195/448][warn] 0.010619233877922699 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.287][195/448][debug] Starting integrator : t0 = 0.010619233877922699 , tf = 0.02
+[23:43:48.291][197/448][debug] Jump detected : t = 0.01070040221125637 j = 100
+[23:43:48.292][197/448][debug] Jump occurred : t = 0.01070040221125637 j = 101
+[23:43:48.296][201/448][debug] Jump detected : t = 0.010788170544590034 j = 101
+[23:43:48.297][201/448][debug] Jump occurred : t = 0.010788170544590034 j = 102
+[23:43:48.302][201/448][debug] Jump detected : t = 0.010873268877923703 j = 102
+[23:43:48.302][201/448][debug] Jump occurred : t = 0.010873268877923703 j = 103
+[23:43:48.302][201/448][warn] 0.010873278877923703 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.302][201/448][debug] Starting integrator : t0 = 0.010873278877923703 , tf = 0.02
+[23:43:48.310][204/448][debug] Jump detected : t = 0.010965847211257365 j = 103
+[23:43:48.312][204/448][debug] Jump occurred : t = 0.010965847211257365 j = 104
+[23:43:48.313][204/448][warn] 0.010965857211257365 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.313][204/448][debug] Starting integrator : t0 = 0.010965857211257365 , tf = 0.02
+[23:43:48.318][208/448][debug] Jump detected : t = 0.011055952211257382 j = 104
+[23:43:48.319][208/448][debug] Jump detected : t = 0.011055963877924246 j = 104
+[23:43:48.319][208/448][debug] Jump occurred : t = 0.011055963877924246 j = 105
+[23:43:48.326][208/448][debug] Jump detected : t = 0.011154742211257904 j = 105
+[23:43:48.326][208/448][debug] Jump occurred : t = 0.011154742211257904 j = 106
+[23:43:48.326][208/448][warn] 0.011154752211257904 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.326][208/448][debug] Starting integrator : t0 = 0.011154752211257904 , tf = 0.02
+[23:43:48.342][214/448][debug] Jump detected : t = 0.011251470544591564 j = 106
+[23:43:48.342][214/448][debug] Jump occurred : t = 0.011251470544591564 j = 107
+[23:43:48.350][214/448][debug] Jump detected : t = 0.011358488877925217 j = 107
+[23:43:48.350][214/448][debug] Jump occurred : t = 0.011358488877925217 j = 108
+[23:43:48.350][217/448][warn] 0.011358498877925217 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.350][217/448][debug] Starting integrator : t0 = 0.011358498877925217 , tf = 0.02
+[23:43:48.359][221/448][debug] Jump detected : t = 0.011464303877925222 j = 108
+[23:43:48.361][221/448][debug] Jump detected : t = 0.011464315544592086 j = 108
+[23:43:48.361][221/448][debug] Jump occurred : t = 0.011464315544592086 j = 109
+[23:43:48.368][223/448][debug] Jump detected : t = 0.011582883877925729 j = 109
+[23:43:48.369][223/448][debug] Jump occurred : t = 0.011582883877925729 j = 110
+[23:43:48.378][227/448][debug] Jump detected : t = 0.011702122211259372 j = 110
+[23:43:48.378][227/448][debug] Jump occurred : t = 0.011702122211259372 j = 111
+[23:43:48.387][230/448][debug] Jump detected : t = 0.011838287211259357 j = 111
+[23:43:48.387][230/448][debug] Jump detected : t = 0.011838298877926222 j = 111
+[23:43:48.387][230/448][debug] Jump occurred : t = 0.011838298877926222 j = 112
+[23:43:48.397][234/448][debug] Jump detected : t = 0.01197986721125985 j = 112
+[23:43:48.397][234/448][debug] Jump occurred : t = 0.01197986721125985 j = 113
+[23:43:48.398][234/448][warn] 0.01197987721125985 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.398][234/448][debug] Starting integrator : t0 = 0.01197987721125985 , tf = 0.02
+[23:43:48.399][234/448][info] status: 60.02%  complete : sim time = 0.01 : jumps = 113
+[23:43:48.408][238/448][debug] Jump detected : t = 0.012147262211259812 j = 113
+[23:43:48.410][240/448][debug] Jump detected : t = 0.012147273877926676 j = 113
+[23:43:48.413][240/448][debug] Jump occurred : t = 0.012147273877926676 j = 114
+[23:43:48.427][240/448][debug] Jump detected : t = 0.012338208877926622 j = 114
+[23:43:48.428][240/448][debug] Jump detected : t = 0.012338220544593485 j = 114
+[23:43:48.428][240/448][debug] Jump occurred : t = 0.012338220544593485 j = 115
+[23:43:48.450][245/448][debug] Jump detected : t = 0.012586198877927035 j = 115
+[23:43:48.450][245/448][debug] Jump occurred : t = 0.012586198877927035 j = 116
+[23:43:48.489][262/448][debug] Jump detected : t = 0.013170813877926691 j = 116
+[23:43:48.490][262/448][debug] Jump detected : t = 0.013170825544593555 j = 116
+[23:43:48.490][262/448][debug] Jump occurred : t = 0.013170825544593555 j = 117
+[23:43:48.517][268/448][debug] Jump detected : t = 0.013417313877927104 j = 117
+[23:43:48.518][268/448][debug] Jump occurred : t = 0.013417313877927104 j = 118
+[23:43:48.538][275/448][debug] Jump detected : t = 0.013610142211260693 j = 118
+[23:43:48.538][275/448][debug] Jump occurred : t = 0.013610142211260693 j = 119
+[23:43:48.558][34/696][debug] Jump detected : t = 0.013775810544594301 j = 119
+[23:43:48.558][34/696][debug] Jump occurred : t = 0.013775810544594301 j = 120
+[23:43:48.568][34/696][debug] Jump detected : t = 0.013919218877927927 j = 120
+[23:43:48.568][34/696][debug] Jump occurred : t = 0.013919218877927927 j = 121
+[23:43:48.597][34/696][info] status: 70.02%  complete : sim time = 0.01 : jumps = 121
+[23:43:48.600][34/696][debug] Jump detected : t = 0.014053573877927912 j = 121
+[23:43:48.601][34/696][debug] Jump detected : t = 0.014053585544594776 j = 121
+[23:43:48.601][34/696][debug] Jump occurred : t = 0.014053585544594776 j = 122
+[23:43:48.608][38/696][debug] Jump detected : t = 0.01417465054459477 j = 122
+[23:43:48.608][38/696][debug] Jump detected : t = 0.014174662211261634 j = 122
+[23:43:48.609][38/696][debug] Jump occurred : t = 0.014174662211261634 j = 123
+[23:43:48.616][46/696][debug] Jump detected : t = 0.014291387211261634 j = 123
+[23:43:48.616][46/696][debug] Jump detected : t = 0.014291398877928498 j = 123
+[23:43:48.616][46/696][debug] Jump occurred : t = 0.014291398877928498 j = 124
+[23:43:48.651][46/696][debug] Jump detected : t = 0.014399057211262148 j = 124
+[23:43:48.651][46/696][debug] Jump occurred : t = 0.014399057211262148 j = 125
+[23:43:48.658][50/696][debug] Jump detected : t = 0.014504215544595802 j = 125
+[23:43:48.658][50/696][debug] Jump occurred : t = 0.014504215544595802 j = 126
+[23:43:48.658][50/696][warn] 0.014504225544595802 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.659][50/696][debug] Starting integrator : t0 = 0.014504225544595802 , tf = 0.02
+[23:43:48.674][50/696][debug] Jump detected : t = 0.014602760544595814 j = 126
+[23:43:48.675][50/696][debug] Jump detected : t = 0.014602772211262677 j = 126
+[23:43:48.675][50/696][debug] Jump occurred : t = 0.014602772211262677 j = 127
+[23:43:48.682][58/696][debug] Jump detected : t = 0.014699690544596336 j = 127
+[23:43:48.682][58/696][debug] Jump occurred : t = 0.014699690544596336 j = 128
+[23:43:48.689][58/696][debug] Jump detected : t = 0.01479163887793 j = 128
+[23:43:48.689][58/696][debug] Jump occurred : t = 0.01479163887793 j = 129
+[23:43:48.707][62/696][debug] Jump detected : t = 0.014882357211263663 j = 129
+[23:43:48.707][62/696][debug] Jump occurred : t = 0.014882357211263663 j = 130
+[23:43:48.713][62/696][debug] Jump detected : t = 0.01496928554459733 j = 130
+[23:43:48.713][62/696][debug] Jump occurred : t = 0.01496928554459733 j = 131
+[23:43:48.729][70/696][debug] Jump detected : t = 0.015055170544597351 j = 131
+[23:43:48.729][70/696][debug] Jump detected : t = 0.015055182211264215 j = 131
+[23:43:48.729][70/696][debug] Jump occurred : t = 0.015055182211264215 j = 132
+[23:43:48.734][70/696][debug] Jump detected : t = 0.015138187211264238 j = 132
+[23:43:48.734][70/696][debug] Jump detected : t = 0.015138198877931101 j = 132
+[23:43:48.735][70/696][debug] Jump occurred : t = 0.015138198877931101 j = 133
+[23:43:48.740][70/696][debug] Jump detected : t = 0.015220243877931127 j = 133
+[23:43:48.740][70/696][debug] Jump detected : t = 0.01522025554459799 j = 133
+[23:43:48.740][70/696][debug] Jump occurred : t = 0.01522025554459799 j = 134
+[23:43:48.744][74/696][debug] Jump detected : t = 0.015300153877931663 j = 134
+[23:43:48.746][74/696][debug] Jump occurred : t = 0.015300153877931663 j = 135
+[23:43:48.751][74/696][debug] Jump detected : t = 0.015379092211265337 j = 135
+[23:43:48.751][74/696][debug] Jump occurred : t = 0.015379092211265337 j = 136
+[23:43:48.753][74/696][warn] 0.015379102211265337 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.753][74/696][debug] Starting integrator : t0 = 0.015379102211265337 , tf = 0.02
+[23:43:48.760][74/696][debug] Jump detected : t = 0.015456467211265366 j = 136
+[23:43:48.764][74/696][debug] Jump detected : t = 0.01545647887793223 j = 136
+[23:43:48.764][74/696][debug] Jump occurred : t = 0.01545647887793223 j = 137
+[23:43:48.769][82/696][debug] Jump detected : t = 0.015532877211265903 j = 137
+[23:43:48.769][82/696][debug] Jump occurred : t = 0.015532877211265903 j = 138
+[23:43:48.774][82/696][debug] Jump detected : t = 0.015608235544599577 j = 138
+[23:43:48.774][82/696][debug] Jump occurred : t = 0.015608235544599577 j = 139
+[23:43:48.779][86/696][debug] Jump detected : t = 0.015682540825128072 j = 139
+[23:43:48.779][86/696][debug] Jump occurred : t = 0.015682540825128072 j = 140
+[23:43:48.784][86/696][debug] Jump detected : t = 0.01575626194724076 j = 140
+[23:43:48.784][86/696][debug] Jump occurred : t = 0.01575626194724076 j = 141
+[23:43:48.789][86/696][debug] Jump detected : t = 0.015828844455492055 j = 141
+[23:43:48.789][86/696][debug] Jump occurred : t = 0.015828844455492055 j = 142
+[23:43:48.794][93/696][debug] Jump detected : t = 0.015901248745921567 j = 142
+[23:43:48.794][93/696][debug] Jump occurred : t = 0.015901248745921567 j = 143
+[23:43:48.799][93/696][debug] Jump detected : t = 0.015972412112258354 j = 143
+[23:43:48.799][93/696][debug] Jump detected : t = 0.015972423663413664 j = 143
+[23:43:48.800][93/696][debug] Jump occurred : t = 0.015972423663413664 j = 144
+[23:43:48.802][93/696][info] status: 80.02%  complete : sim time = 0.02 : jumps = 144
+[23:43:48.805][93/696][debug] Jump detected : t = 0.01604378834988278 j = 144
+[23:43:48.805][93/696][debug] Jump occurred : t = 0.01604378834988278 j = 145
+[23:43:48.810][93/696][debug] Jump detected : t = 0.01611381640268853 j = 145
+[23:43:48.810][93/696][debug] Jump occurred : t = 0.01611381640268853 j = 146
+[23:43:48.810][93/696][warn] 0.016113826303678632 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.810][93/696][debug] Starting integrator : t0 = 0.016113826303678632 , tf = 0.02
+[23:43:48.815][93/696][debug] Jump detected : t = 0.01618437910895963 j = 146
+[23:43:48.816][93/696][debug] Jump occurred : t = 0.01618437910895963 j = 147
+[23:43:48.816][93/696][warn] 0.016184389009949732 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.816][93/696][debug] Starting integrator : t0 = 0.016184389009949732 , tf = 0.02
+[23:43:48.821][93/696][debug] Jump detected : t = 0.01625350617166637 j = 147
+[23:43:48.821][93/696][debug] Jump occurred : t = 0.01625350617166637 j = 148
+[23:43:48.825][105/696][debug] Jump detected : t = 0.01632349462051172 j = 148
+[23:43:48.825][105/696][debug] Jump occurred : t = 0.01632349462051172 j = 149
+[23:43:48.826][105/696][warn] 0.01632350452150182 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.826][105/696][debug] Starting integrator : t0 = 0.01632350452150182 , tf = 0.02
+[23:43:48.831][105/696][debug] Jump detected : t = 0.01639193851490163 j = 149
+[23:43:48.832][105/696][debug] Jump occurred : t = 0.01639193851490163 j = 150
+[23:43:48.837][105/696][debug] Jump detected : t = 0.01646156062711332 j = 150
+[23:43:48.837][105/696][debug] Jump occurred : t = 0.01646156062711332 j = 151
+[23:43:48.841][105/696][debug] Jump detected : t = 0.016529529273978473 j = 151
+[23:43:48.841][105/696][debug] Jump occurred : t = 0.016529529273978473 j = 152
+[23:43:48.845][105/696][debug] Jump detected : t = 0.016598973168368378 j = 152
+[23:43:48.845][105/696][debug] Jump occurred : t = 0.016598973168368378 j = 153
+[23:43:48.849][105/696][debug] Jump detected : t = 0.01666664478553056 j = 153
+[23:43:48.849][105/696][debug] Jump occurred : t = 0.01666664478553056 j = 154
+[23:43:48.854][113/696][debug] Jump detected : t = 0.016736088679920463 j = 154
+[23:43:48.854][113/696][debug] Jump occurred : t = 0.016736088679920463 j = 155
+[23:43:48.854][113/696][warn] 0.016736098580910564 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.854][113/696][debug] Starting integrator : t0 = 0.016736098580910564 , tf = 0.02
+[23:43:48.858][113/696][debug] Jump detected : t = 0.01680365138619156 j = 155
+[23:43:48.858][113/696][debug] Jump occurred : t = 0.01680365138619156 j = 156
+[23:43:48.863][113/696][debug] Jump detected : t = 0.016873283399393348 j = 156
+[23:43:48.863][113/696][debug] Jump occurred : t = 0.016873283399393348 j = 157
+[23:43:48.863][113/696][warn] 0.01687329330038345 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.863][113/696][debug] Starting integrator : t0 = 0.01687329330038345 , tf = 0.02
+[23:43:48.867][117/696][debug] Jump detected : t = 0.016940912112264787 j = 157
+[23:43:48.867][117/696][debug] Jump detected : t = 0.016940923663420093 j = 157
+[23:43:48.867][117/696][debug] Jump occurred : t = 0.016940923663420093 j = 158
+[23:43:48.871][117/696][debug] Jump detected : t = 0.017010931914245644 j = 158
+[23:43:48.871][117/696][debug] Jump occurred : t = 0.017010931914245644 j = 159
+[23:43:48.872][117/696][warn] 0.017010941815235745 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.872][117/696][debug] Starting integrator : t0 = 0.017010941815235745 , tf = 0.02
+[23:43:48.876][117/696][debug] Jump detected : t = 0.017078831254180103 j = 159
+[23:43:48.876][117/696][debug] Jump occurred : t = 0.017078831254180103 j = 160
+[23:43:48.880][125/696][debug] Jump detected : t = 0.0171494038614413 j = 160
+[23:43:48.880][125/696][debug] Jump occurred : t = 0.0171494038614413 j = 161
+[23:43:48.880][125/696][warn] 0.0171494137624314 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.880][125/696][debug] Starting integrator : t0 = 0.0171494137624314 , tf = 0.02
+[23:43:48.885][125/696][debug] Jump detected : t = 0.017217758646920316 j = 161
+[23:43:48.885][125/696][debug] Jump occurred : t = 0.017217758646920316 j = 162
+[23:43:48.885][125/696][warn] 0.017217768547910416 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.885][125/696][debug] Starting integrator : t0 = 0.017217768547910416 , tf = 0.02
+[23:43:48.891][125/696][debug] Jump detected : t = 0.017289100231078887 j = 162
+[23:43:48.891][125/696][debug] Jump detected : t = 0.017289111782234197 j = 162
+[23:43:48.891][125/696][debug] Jump occurred : t = 0.017289111782234197 j = 163
+[23:43:48.895][125/696][debug] Jump detected : t = 0.0173581365347096 j = 163
+[23:43:48.896][125/696][debug] Jump detected : t = 0.01735814808586491 j = 163
+[23:43:48.896][125/696][debug] Jump occurred : t = 0.01735814808586491 j = 164
+[23:43:48.910][125/696][debug] Jump detected : t = 0.017430502871343928 j = 164
+[23:43:48.911][125/696][debug] Jump occurred : t = 0.017430502871343928 j = 165
+[23:43:48.920][125/696][debug] Jump detected : t = 0.017500431914248687 j = 165
+[23:43:48.920][125/696][debug] Jump occurred : t = 0.017500431914248687 j = 166
+[23:43:48.925][132/696][debug] Jump detected : t = 0.017574030924149834 j = 166
+[23:43:48.929][132/696][debug] Jump detected : t = 0.01757404247530514 j = 166
+[23:43:48.930][132/696][debug] Jump occurred : t = 0.01757404247530514 j = 167
+[23:43:48.941][132/696][debug] Jump detected : t = 0.017645129934051484 j = 167
+[23:43:48.944][132/696][debug] Jump occurred : t = 0.017645129934051484 j = 168
+[23:43:48.952][132/696][debug] Jump detected : t = 0.01772027679873843 j = 168
+[23:43:48.952][132/696][debug] Jump occurred : t = 0.01772027679873843 j = 169
+[23:43:48.959][132/696][debug] Jump detected : t = 0.017792809802039233 j = 169
+[23:43:48.960][132/696][debug] Jump occurred : t = 0.017792809802039233 j = 170
+[23:43:48.965][132/696][debug] Jump detected : t = 0.01786982795385489 j = 170
+[23:43:48.965][132/696][debug] Jump occurred : t = 0.01786982795385489 j = 171
+[23:43:48.970][132/696][debug] Jump detected : t = 0.017944162937353715 j = 171
+[23:43:48.971][132/696][debug] Jump occurred : t = 0.017944162937353715 j = 172
+[23:43:48.975][140/696][info] status: 90.03%  complete : sim time = 0.02 : jumps = 172
+[23:43:48.982][140/696][debug] Jump detected : t = 0.018023458316892144 j = 172
+[23:43:48.983][140/696][debug] Jump occurred : t = 0.018023458316892144 j = 173
+[23:43:48.984][140/696][warn] 0.018023468217882244 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.984][140/696][debug] Starting integrator : t0 = 0.018023468217882244 , tf = 0.02
+[23:43:48.991][140/696][debug] Jump detected : t = 0.0181000078218428 j = 173
+[23:43:48.992][140/696][debug] Jump detected : t = 0.018100019372998696 j = 173
+[23:43:48.992][140/696][debug] Jump occurred : t = 0.018100019372998696 j = 174
+[23:43:48.992][140/696][warn] 0.018100029273988797 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.992][140/696][debug] Starting integrator : t0 = 0.018100029273988797 , tf = 0.02
+[23:43:48.998][140/696][debug] Jump detected : t = 0.018182087029764857 j = 174
+[23:43:48.998][140/696][debug] Jump occurred : t = 0.018182087029764857 j = 175
+[23:43:48.998][140/696][warn] 0.018182096930754958 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:48.998][140/696][debug] Starting integrator : t0 = 0.018182096930754958 , tf = 0.02
+[23:43:49.003][140/696][debug] Jump detected : t = 0.01826139231029339 j = 175
+[23:43:49.003][140/696][debug] Jump occurred : t = 0.01826139231029339 j = 176
+[23:43:49.035][144/696][debug] Jump detected : t = 0.018346846105673414 j = 176
+[23:43:49.035][144/696][debug] Jump occurred : t = 0.018346846105673414 j = 177
+[23:43:49.042][152/696][debug] Jump detected : t = 0.018429577128776208 j = 177
+[23:43:49.042][152/696][debug] Jump occurred : t = 0.018429577128776208 j = 178
+[23:43:49.048][152/696][debug] Jump detected : t = 0.01851924544560806 j = 178
+[23:43:49.049][152/696][debug] Jump detected : t = 0.01851925699676396 j = 178
+[23:43:49.049][152/696][debug] Jump occurred : t = 0.01851925699676396 j = 179
+[23:43:49.049][152/696][warn] 0.01851926689775406 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.049][152/696][debug] Starting integrator : t0 = 0.01851926689775406 , tf = 0.02
+[23:43:49.054][152/696][debug] Jump detected : t = 0.018606334554520224 j = 179
+[23:43:49.054][152/696][debug] Jump occurred : t = 0.018606334554520224 j = 180
+[23:43:49.060][156/696][debug] Jump detected : t = 0.018701352706335897 j = 180
+[23:43:49.060][156/696][debug] Jump occurred : t = 0.018701352706335897 j = 181
+[23:43:49.090][156/696][debug] Jump detected : t = 0.018794040825147955 j = 181
+[23:43:49.091][156/696][debug] Jump detected : t = 0.018794052376303855 j = 181
+[23:43:49.091][156/696][debug] Jump occurred : t = 0.018794052376303855 j = 182
+[23:43:49.092][156/696][warn] 0.018794062277293955 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.092][156/696][debug] Starting integrator : t0 = 0.018794062277293955 , tf = 0.02
+[23:43:49.099][164/696][debug] Jump detected : t = 0.018896040825149243 j = 182
+[23:43:49.100][164/696][debug] Jump occurred : t = 0.018896040825149243 j = 183
+[23:43:49.100][164/696][warn] 0.018896050726139344 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.100][164/696][debug] Starting integrator : t0 = 0.018896050726139344 , tf = 0.02
+[23:43:49.106][164/696][debug] Jump detected : t = 0.018996266897757005 j = 183
+[23:43:49.106][164/696][debug] Jump occurred : t = 0.018996266897757005 j = 184
+[23:43:49.113][164/696][debug] Jump detected : t = 0.019107690990166758 j = 184
+[23:43:49.113][164/696][debug] Jump occurred : t = 0.019107690990166758 j = 185
+[23:43:49.114][164/696][warn] 0.01910770089115686 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.114][164/696][debug] Starting integrator : t0 = 0.01910770089115686 , tf = 0.02
+[23:43:49.122][168/696][debug] Jump detected : t = 0.019218540825150766 j = 185
+[23:43:49.131][168/696][debug] Jump occurred : t = 0.019218540825150766 j = 186
+[23:43:49.131][168/696][warn] 0.019218550726140867 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.131][168/696][debug] Starting integrator : t0 = 0.019218550726140867 , tf = 0.02
+[23:43:49.140][176/696][debug] Jump detected : t = 0.01934360848191697 j = 186
+[23:43:49.140][176/696][debug] Jump occurred : t = 0.01934360848191697 j = 187
+[23:43:49.140][176/696][warn] 0.01934361838290707 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.140][176/696][debug] Starting integrator : t0 = 0.01934361838290707 , tf = 0.02
+[23:43:49.153][176/696][debug] Jump detected : t = 0.019470785049574266 j = 187
+[23:43:49.153][176/696][debug] Jump occurred : t = 0.019470785049574266 j = 188
+[23:43:49.167][180/696][debug] Jump detected : t = 0.019617763597429595 j = 188
+[23:43:49.167][180/696][debug] Jump occurred : t = 0.019617763597429595 j = 189
+[23:43:49.167][180/696][warn] 0.019617773498419696 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.167][180/696][debug] Starting integrator : t0 = 0.019617773498419696 , tf = 0.02
+[23:43:49.179][188/696][debug] Jump detected : t = 0.019774593630433455 j = 189
+[23:43:49.179][188/696][debug] Jump occurred : t = 0.019774593630433455 j = 190
+[23:43:49.233][192/696][debug] Jump detected : t = 0.019965027623833384 j = 190
+[23:43:49.234][192/696][debug] Jump occurred : t = 0.019965027623833384 j = 191
+[23:43:49.234][192/696][warn] 0.019965037524823485 Integrator exception - exception handling thresholds too large - adjusting intervals and restarting integrator
+[23:43:49.235][192/696][debug] Starting integrator : t0 = 0.019965037524823485 , tf = 0.02
+[23:43:49.253][196/696][info] Environment Stopped

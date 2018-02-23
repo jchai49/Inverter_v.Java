@@ -1,6 +1,6 @@
 package Hinverter;
 
-import edu.ucsc.cross.hse.core.object.HybridSystem;
+import edu.ucsc.cross.hse.core.modeling.HybridSystem;
 
 public class InverterSystem extends HybridSystem<InverterState>
 {

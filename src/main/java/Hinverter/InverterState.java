@@ -1,8 +1,8 @@
 package Hinverter;
 
-import edu.ucsc.cross.hse.core.object.ObjectSet;
+import edu.ucsc.cross.hse.core.modeling.DataStructure;
 
-public class InverterState extends ObjectSet
+public class InverterState extends DataStructure
 {
 
 	public double p;
